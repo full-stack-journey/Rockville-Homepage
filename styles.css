@@ -1,0 +1,98 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(#C66B3D, #FFC300);
+    background-attachment: fixed;
+}
+
+h1 {
+    size: 29px;
+}
+
+h2 {
+    size: 24px;
+}
+
+h3 {
+    size: 18px;
+}
+
+p {
+    size: 16px;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.header {
+    margin-top: 0;
+    background-image: url("./images/rockville.png");
+    background-size: cover;
+    height: 343px;
+    color: #FFFFF2;
+}
+
+#title {
+    background: #1F2D16;
+    width: 240px;
+    padding: 5px 12px;
+    border-radius: 10px;
+    margin: 122px auto 16px auto;
+}
+
+#subtitle {
+    background: #545E45;
+    width: 412px;
+    padding: 5px 28px;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+
+#subtitle-2 {
+    color: #121212;
+    width: 439px;
+    margin: 39px auto 17px auto;
+}
+
+.all-activities {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto 0px auto;
+}
+
+.activity {
+    width: 200px;
+}
+
+.rounded-img {
+    width: 100px;
+}
+
+.business-card {
+    display: flex;
+    background: #1C4E80;
+    border-radius: 10px;
+    margin: 50px 142px;
+    width: 440px;
+    padding: 23px;
+}
+
+#pfp-img {
+    width: 180px;
+    border-radius: 10px;
+    margin: 0px 15px 0px 0px;
+}
+
+#info {
+    width: 190px;
+    padding: 0px 29px;
+    color: #FFFFF2
+}
